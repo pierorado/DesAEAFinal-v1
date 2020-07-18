@@ -20,7 +20,7 @@ namespace Web.Controllers
         [HttpPost]
         public ActionResult Register(string username, string password)
         {
-
+            return View();
         }
 
 
